@@ -46,7 +46,7 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    text-decoration: none;
+    text-decoration: znone;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -102,7 +102,6 @@ nav ul li a {
 }
 
 .col-5 img:hover {
-    width: 50%;
     filter: grayscale(0);
 }
 
@@ -131,4 +130,38 @@ nav ul li a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.copyright {
+    text-align: center;
+}
+
+/* cart */
+table {
+    width: 100%;
+    border: 1.5px solid;
+}
+
+td img {
+    width: 100px;
+    margin-right: 20px;
+
+}
+.product-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.total-price table {
+    margin-top: 35px;
+    width: 100%;
+}
+
+.total-price th {
+    padding-right: 125px;
+}
+
+.total-price td {
+    padding-right: 82px;
 }
